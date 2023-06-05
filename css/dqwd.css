@@ -1,0 +1,24 @@
+<style>
+  .input-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .find-st {
+    height: 40px;
+    width: 11.5%;
+    border-radius: 40px;
+    padding-right: 30px;
+  }
+
+  .svg-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: auto;
+    fill: currentColor;
+  }
+</style>
