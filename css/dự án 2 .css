@@ -15,7 +15,7 @@ body {
     margin-top: 22px;
 }
 .container-left {
-    width: 17%;
+    width: 48%;
 }
 .bt-top {
     display: flex;
@@ -309,7 +309,11 @@ body {
     font-size: 12px!important;
     color:#555759;
 }
+.main-left {
+    display: flex;
+    gap: 30px;
 
+}
 
 
 
