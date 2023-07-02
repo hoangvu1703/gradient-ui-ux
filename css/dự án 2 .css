@@ -17,16 +17,73 @@ body {
 .container-left {
     width: 17%;
 }
+.bt-top {
+    display: flex;
+    gap: 24px;
+}
 .inpush-left {
     width: 144px;
     height: 50px; 
     font-size: 22px; 
+}
+.inpush-right {
+    border-radius: 40px;
+    width: 144px; 
+    height: 50px; 
+    font-size: 22px; 
+    border: solid 0px; 
+    background-color: #ffffff; 
+    color: #6b5cb0
 }
 .button-gradient {
     border-radius: 40px;
     border: solid 0px; 
     background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%);
     color: #ffffff;
+}
+.find-st {
+    height: 50px; 
+    width: 93%; 
+    border-radius: 40px; 
+    border: solid 0px; 
+    color: #ffffff;
+    padding-left: 20px;
+}
+.inside {
+    background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%); 
+    position: absolute; 
+    top: 18.5%; 
+    right: 7px; 
+    border-radius: 50%;
+    height: 34px; 
+    width: 34px; 
+    text-align: center;
+}
+.heroic {
+    width: 100%; 
+    display: flex; 
+    gap: 25px; 
+    border: #ffffff solid 1px; 
+    border-radius: 30px;
+    margin-right:84%; 
+    background-color: #ffffff; 
+    height: 45px; 
+    align-items: center; 
+    justify-content: center;
+}
+.mes-left {
+    width: 35px;
+}
+.home {
+    color: #6a4cd0;
+}
+.in-top {
+    border:solid 4px; 
+    border-radius: 50%; 
+    color: red; 
+    position: absolute; 
+    top: 7px; 
+    right:2px ;
 }
 .icon-gradient {
     color: #d5d4da;
@@ -252,7 +309,6 @@ body {
     font-size: 12px!important;
     color:#555759;
 }
-
 
 
 

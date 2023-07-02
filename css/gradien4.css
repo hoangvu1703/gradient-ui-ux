@@ -71,3 +71,10 @@
 .text-review,.star-icon-user {
     margin-left: 30px;
 }
+.icon-width {
+    width: 50px
+}
+.text-write {
+    font-size: 12px;
+    color: #9b9b9f;
+}

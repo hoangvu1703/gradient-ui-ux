@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/gradient2.css">
     <link rel="stylesheet" href="css/gradient3.css">
     <link rel="stylesheet" href="css/gradien4.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
   </head>
   <body style="background-color: #e7e9f6;">
@@ -14,15 +15,14 @@
       <!--left-->
       <div class="container-left" style="display: flex; flex-direction: column; gap: 40px;">
         <div class="main-container-left-top">
-          <div class="bt-top" style="display: flex; gap: 24px;">
+          <div class="bt-top">
             <!--button-->
             <div class="push">
               <button class="inpush-left button-gradient">button</button>
             </div>
           
             <div class="push">
-              <button class="inpush-right" style="border-radius: 40px; width: 144px; height: 50px; font-size: 22px; border: solid 0px; background-color: #ffffff; color: #6b5cb0">
-               button</button>
+              <button class="inpush-right">button</button>
             </div>
             <!--end button-->
           </div> 
@@ -31,7 +31,7 @@
             <div class="find">
               <div class="search-st" >
                 <div class="input-main" style="margin-top: 20px; position: relative;">
-                  <input class="find-st" style="height: 50px; width: 93%; border-radius: 40px; border: solid 0px; color: #ffffff;padding-left: 20px;" type="text" name="search" placeholder="search something">
+                  <input class="find-st" type="text" name="search" placeholder="search something">
                   <svg style="width: 20px; position: absolute; top: 30%; right: 5%; color:#6a4cd0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                   </svg>
@@ -40,8 +40,8 @@
               </div>
               <div class="sr">
                 <div class="output" style="position: relative;">
-                  <input class="find-st" style="margin-top: 20px; height: 50px; width: 93%; border-radius: 40px; border: solid 0px; color: #ffffff; padding-left: 20px;" type="text" name="search" placeholder="search something">
-                  <div class="inside" style="background: linear-gradient(to left,#6a4cd0 20%,#965feb 80%); position: absolute; top: 38.5%; right: 7px; border-radius: 50%;height: 34px; width: 34px; text-align: center;">
+                  <input class="find-st" type="text" name="search" placeholder="search something">
+                  <div class="inside">
                     <svg style="width: 16px; padding-top: 10px; color: #ffffff" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                   </svg>
@@ -52,27 +52,25 @@
             <!--search st-->
             <!--icon bot-->
             <div class="icon">
-              <div class="heroic" style="width: 100%; display: flex; gap: 25px; border: #ffffff solid 1px; border-radius: 30px; margin-right:84%; background-color: #ffffff; height: 45px; align-items: center; justify-content: center;">
-                <svg class="mini-icon" style="width: 35px; color: #6a4cd0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <div class="heroic">
+                <svg class="mini-icon mes-left home" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>
                 <div class="mes-top">
-                  <svg class="mini-icon icon-gradient" style="width: 35px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <svg class="mini-icon icon-gradient mes-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
                   </svg>
-                  <div class="in-top" style="border:solid 4px; border-radius: 50%; color: red; position: absolute; top: 7px; right:2px ;"></div>
+                  <div class="in-top"></div>
                 </div>
-                <svg class="mini-icon icon-gradient" style="width: 35px; " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg class="mini-icon icon-gradient mes-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
                 </svg>
-              <svg class="mini-icon icon-gradient" style="width: 35px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                </svg>
-                <svg class="mini-icon icon-gradient" style="width: 35px;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg class="mini-icon icon-gradient mes-left"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                  </svg>
+                <svg class="mini-icon icon-gradient mes-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                </svg>
-                                    
-                          
+                </svg>          
               </div> 
             </div>
           </div>
@@ -277,16 +275,16 @@
             </div>
             <div class="chat-user">
               <div class="reply gradient-background more">
-                <p style="padding-left:10px; font-size: 12px;color: #9b9a9e">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut<br> laoreet dolore magna aliquam erat.</p>
+                <p class="chat-size">Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit, sed diam<br> nonummy nibh euismod tincidunt ut<br> laoreet dolore magna aliquam erat.</p>
               </div>
               <div class="reply gradient-background reduce ">
-                <p style="padding-left:10px; font-size: 12px; color: #9b9a9e"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+                <p class="chat-size"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
               </div>
 
             </div>
             <div class="chat-right">
               <div class="user-reply gender-gradient-one reduce">
-                <p style="padding-left:10px; font-size: 12px; color: #d9c1fc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                <p class="chat-size-right">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
               </div>
               <div class="user-reply gender-gradient-one side">
                 <p style="color: #ffffff">........</p>
@@ -311,7 +309,7 @@
           <div class="user-hightlight user-main">
             <div class="user-update">
               <div class="first-user user-position ">
-                <svg class="icon-user" style="width: 40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg class="icon-user icon-center-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                 </svg>
                 <div class="small-plus">
@@ -327,7 +325,7 @@
                 <div class="user-image">
                   <div class="color-border">
                     <div class="user-border first-user">
-                      <svg class="icon-user" style="width: 40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <svg class="icon-user icon-center-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                       </svg>
                     </div>
@@ -339,7 +337,7 @@
                 <div class="user-image">
                   <div class="color-border">
                     <div class="user-border first-user">
-                      <svg class="icon-user" style="width: 40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <svg class="icon-user icon-center-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                       </svg>
                     </div>
@@ -351,7 +349,7 @@
                 <div class="user-image">
                   <div class="color-border">
                     <div class="user-border first-user">
-                      <svg class="icon-user" style="width: 40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <svg class="icon-user icon-center-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                       </svg>
                     </div>
@@ -363,7 +361,7 @@
                 <div class="user-image">
                   <div class="color-border">
                     <div class="user-border first-user">
-                      <svg class="icon-user" style="width: 40px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                      <svg class="icon-user icon-center-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                       </svg>
                     </div>
@@ -483,8 +481,8 @@
             </div>
           </div>
           <div class="user-class">
-            <div class="user-icon-name gender-gradient-one ">
-              <svg class="icon-user" style="width: 50px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <div class="user-icon-name gender-gradient-one  ">
+              <svg class="icon-user icon-width" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
               </svg>
             </div>
@@ -605,7 +603,7 @@
           <div class="text-review">
             <p style="font-size: 10px;color: #9b9b9f">7 August 2021/15:24</p>
             <p style="font-size: 14px;"><strong>Satisfied</strong></p>
-            <p style="font-size: 12px;color: #9b9b9f">Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat<br> volutpat. Ut wisi enim ad minim veniam, quis<br> nostrud exerci tation ullamcorper suscipit<br>lobortis nisl ut aliquip ex</p>
+            <p class="text-write">Lorem ipsum dolor sit amet, consectetuer<br> adipiscing elit, sed diam nonummy nibh euismod<br> tincidunt ut laoreet dolore magna aliquam erat<br> volutpat. Ut wisi enim ad minim veniam, quis<br> nostrud exerci tation ullamcorper suscipit<br>lobortis nisl ut aliquip ex</p>
             <br>
             <p style="font-size: 10px;color: #9b9b9f">was this review helpfull ?</p>
           </div>
